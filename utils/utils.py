@@ -59,7 +59,7 @@ def get_clientId():
 
 
 def read_file(folder_name, file_name):
-    BASE_PATH = Path.cwd().joinpath('tests', 'resources')
+    BASE_PATH = Path(Path(__file__).parent).parent / 'resources'
     path = BASE_PATH.joinpath(folder_name, file_name)
     open_file = open(path, 'r')
     return json.loads(open_file.read())
