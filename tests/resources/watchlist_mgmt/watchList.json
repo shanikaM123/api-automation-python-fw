@@ -1,0 +1,28 @@
+{
+  "app_id": "%s",
+  "entity_label": "person",
+  "list_description": "%s",
+  "list_name": "%s",
+  "fetcher_url": "https://test.com/v1/cia",
+  "indexed_attribute_type_mapping": [
+    {
+      "list_attribute": "primary_name"
+    },
+    {
+      "list_attribute": "birthDate"
+    },
+    {
+      "list_attribute": "birthPlace"
+    }
+  ],
+  "extra_metadata": {
+    "name": {
+      "name": "%s",
+      "value": "%s"
+    },
+    "address" : {
+      "name": "%s",
+      "value": "%s"
+    }
+  }
+}

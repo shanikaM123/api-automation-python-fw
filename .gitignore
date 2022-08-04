@@ -1,0 +1,12 @@
+/venv
+.idea/
+.~lock.*
+*.csv
+*.pyc
+.pytest_cache
+/assets
+tests/assets
+*.html
+credentials.properties
+exp.py
+test_me*.py

@@ -1,0 +1,38 @@
+{
+  "er_validated": true,
+  "conf": 0.8,
+  "trace_id": "%s",
+  "private_enrich": true,
+  "public_enrich": true,
+  "mentions": [
+    {
+
+      "name": "%s",
+      "entity_type": "person",
+      "tag": "screening_entity",
+      "mention_id": "0",
+      "source_name": "toronto",
+      "screening_type": "ods"
+    },
+	{
+      "name": "%s",
+      "entity_type": "person",
+      "tag": "wl_hit",
+	  "wl_hit_index": "record_id_1",
+	  "wl_id": "dowjones",
+	  "wl_ver": "someversion",
+      "mention_id": "1",
+      "source_name": "praneeth"
+    },
+	{
+     "name": "%s",
+      "entity_type": "person",
+      "tag": "wl_hit",
+	  "wl_hit_index": "record_id_2",
+	  "wl_id": "dowjones",
+	  "wl_ver": "someversion",
+      "mention_id": "2",
+      "source_name": "praneeth"
+    }
+  ]
+}

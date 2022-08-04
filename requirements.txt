@@ -1,0 +1,10 @@
+requests
+pytest
+pytest-dependency
+pytest-html
+requests-toolbelt
+
+bst-service-authenticator==2.0.0
+
+msal==1.15.0
+boto3
