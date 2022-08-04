@@ -3,7 +3,7 @@
 import os
 import pytest
 
-from api_clients.get_allApplications import *
+from api_clients.user_requests import *
 import configparser
 import ast
 
