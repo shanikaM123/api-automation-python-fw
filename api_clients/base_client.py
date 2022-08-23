@@ -2,6 +2,7 @@
 
 class BaseClient:
     _base_url = None
+    _author_base_url = None
     _token = None
     _headers = {}
 

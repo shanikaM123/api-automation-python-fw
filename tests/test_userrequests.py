@@ -59,6 +59,7 @@ def test_post_login_successful(user_list):
     response_value = json_response['token']
     assert response_value == 'QpwL5tke4Pnpja7X4'
 
+
 def test_delete_single_user(user_list):
     response = user_list.user_Req_delete_single_user()
     assert response.status_code == 204
